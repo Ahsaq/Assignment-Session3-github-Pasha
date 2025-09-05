@@ -8,11 +8,12 @@ int num, num1, num2;
 printf("Enter three integers : ");
 scanf("%d %d %d", &num, &num1, &num2);
     
-    while(num<=num2){
-    printf("%d ",num);
-    num=num+num1;
+    while(num <= num2){
+    printf("%d ", num);
+    num = num + num1;
     }
 
 printf("\nPress any key to continue . . . ");
     return 0;
 }
+
